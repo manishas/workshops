@@ -6,6 +6,5 @@ Rails.application.routes.draw do
     get :subjects
   end
   resources :teachers
-  resources :reports
   get 'reports/subjects' => 'reports#subjects', :as => 'report_subjects'
 end
