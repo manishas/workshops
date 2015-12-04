@@ -17,7 +17,6 @@ feature 'User checks student subjects' do
     within('.breadcrumbs') do
       expect(page).to have_content 'RoR Workhops » Students » Jan Nowak subjects'
     end
-
     expect(page).to have_content 'Math'
   end
 end

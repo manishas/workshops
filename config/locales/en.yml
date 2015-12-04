@@ -30,5 +30,6 @@ en:
       academic_title: academic title
   subjects:
     columns:
+      title: Subject name
       full_name: Full name
-      avg_notes: Notes avarange
+      avg_notes: Grade average
