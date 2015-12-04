@@ -5,12 +5,6 @@ class StudentsController < ApplicationController
 
   before_action :authenticate_user!
 
-  def index
-  end
-
-  def new
-  end
-
   def create
     if student.save
       redirect_to student_path(student), notice: I18n.t('shared.created', resource: 'Student')
