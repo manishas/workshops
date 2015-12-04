@@ -7,4 +7,4 @@ connection: &connection
 test: &test
   <<: *connection
   database: workshops_test
-	username: postgres
+  username: postgres
