@@ -1,6 +1,12 @@
+language: ruby
 rvm:
-  - 2.2.3
-before_script:
-  - psql -c 'create database workshops_test;' -U postgres
+	- "2.2.3"
 addons:
-  postgresql: '9.3'
+	postgresql: "9.3"
+services:
+	- postgresql
+before_script:
+	- psql -c 'create database workshops_test;' -U postgres
+	- cp config/database.yml.travis config/database.yml
+install:
+	- bundle install
