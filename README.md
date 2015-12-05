@@ -97,3 +97,5 @@ Useful gems for improving your workflow:
 * [https://netguru.co/blog/ups-and-downs-of-pull-request-flow-part-1](https://netguru.co/blog/ups-and-downs-of-pull-request-flow-part-1) - why we prefer to work with single-branch flow, part 1,
 * [https://netguru.co/blog/ups-and-downs-of-pull-request-flow-1](https://netguru.co/blog/ups-and-downs-of-pull-request-flow-1) - why we prefer to work with single-branch flow, part 2,
 * [http://www.creativebloq.com/javascript/javascript-debugging-beginners-3122820](http://www.creativebloq.com/javascript/javascript-debugging-beginners-3122820) - quick introduction to debugging JavaScript code.
+=======
+>>>>>>> 83079985de452b084f0068e43a162ba8f10e7ae3
