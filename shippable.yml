@@ -3,6 +3,3 @@ language: ruby
 rvm:
   - "2.2.3"
 
-build:
-  ci:
-    - bundle install
